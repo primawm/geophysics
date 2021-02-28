@@ -1,0 +1,12 @@
+# Waveform Cross-Correlation program by Prima Widianto
+# November 2020
+# Correlate event pair based on dt.ct (HypoDD input data) and catalog information.
+# Output : lag time, correlation coefficient
+# Run using python 3
+# Note: There's a little bit modification i did in the obspy xcorr_pick_correction library so that it can bypass
+# the pair of event that doesn't have maximum value of correlation coefficient (this kind of event pair makes the
+# program stops so i bypass it and i'd just give an information that this pair has an error in the output table).
+# Also, due to the confidentiality of the data i decided to only give a sample of waveform in the sample folder
+
+# The dt.cc for HypoDD input can be built using the dtcc.py proram
+# Feel free to contact me if there's any problem
